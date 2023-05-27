@@ -2,19 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/updateTransact.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/login.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/officePay.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/homeFin.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/choose.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/login2.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/home.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/newPending.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/updatePayor.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/Project/ConnectionProvider.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/newTransact.java</file>
-            <file>file:/C:/Users/johnn/OneDrive/Documents/NetBeansProjects/Collection_Manage/src/officialReceipt.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

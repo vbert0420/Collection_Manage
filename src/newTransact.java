@@ -108,6 +108,11 @@ public class newTransact extends javax.swing.JFrame {
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 310, -1, -1));
 
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 90, 160, -1));
 
         jTextField2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -344,6 +349,10 @@ public class newTransact extends javax.swing.JFrame {
         setVisible(false);
         new newTransact().setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -82,41 +82,36 @@ public class officialReceipt extends javax.swing.JFrame {
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jLabel15 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("GENERATE OFFICIAL RECEIPT");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, -1, 40));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 420, 1360, 10));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("PAYOR DETAILS");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Serial Number");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, -1, -1));
+        jLabel4.setText("Transact Number");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Payor");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 170, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Fund Cluster");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 170, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Date");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 170, -1, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 170, -1, -1));
 
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -142,43 +137,36 @@ public class officialReceipt extends javax.swing.JFrame {
         getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 1360, 10));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("TRANSACT DETAILS");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, 20));
 
         jLabel9.setBackground(new java.awt.Color(255, 255, 255));
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("ID");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 320, -1, -1));
+        jLabel9.setText("Agency");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, -1, -1));
 
         jLabel10.setBackground(new java.awt.Color(255, 255, 255));
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setText("Payor");
+        jLabel10.setText("Bank");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 320, -1, -1));
 
         jLabel11.setBackground(new java.awt.Color(255, 255, 255));
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Fund Cluster");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 320, -1, -1));
 
         jLabel12.setBackground(new java.awt.Color(255, 255, 255));
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setText("Agency");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 320, -1, -1));
+        jLabel12.setText("Per Bill No");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 320, -1, -1));
 
         jLabel13.setBackground(new java.awt.Color(255, 255, 255));
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Purpose");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 320, -1, -1));
 
         jLabel14.setBackground(new java.awt.Color(255, 255, 255));
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Amount");
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 380, -1, -1));
 
@@ -202,7 +190,7 @@ public class officialReceipt extends javax.swing.JFrame {
         getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 320, 120, -1));
 
         jTextField8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 320, 120, -1));
+        getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 320, 120, -1));
 
         jTextField9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         getContentPane().add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 320, 140, -1));
@@ -235,7 +223,6 @@ public class officialReceipt extends javax.swing.JFrame {
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, 720, 310));
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Total");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 500, -1, -1));
 
@@ -276,124 +263,36 @@ public class officialReceipt extends javax.swing.JFrame {
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1190, 590, 70, -1));
 
         jLabel19.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Date");
         getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 20, -1, -1));
 
         jLabel20.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Time");
         getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 50, -1, -1));
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("jLabel21");
         getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(1170, 20, -1, -1));
 
         jLabel22.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("jLabel22");
         getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(1170, 50, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Example Paitn.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1360, 760));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9" }));
+        jComboBox1.setSelectedItem(1);
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, 190, -1));
+
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/neutral_army_green.png"))); // NOI18N
+        jLabel15.setText("jLabel15");
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField7ActionPerformed
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-        String serialNo=jTextField1.getText();
-        try
-        {
-            Connection con=ConnectionProvider.getcon();
-            Statement st=con.createStatement();
-            ResultSet rs=st.executeQuery("select *from payor where serialNo like '"+serialNo+"%'");
-            if(rs.next())
-            {
-                jTextField1.setText(rs.getString(1));
-                jTextField2.setText(rs.getString(2));
-                jTextField3.setText(rs.getString(3));
-                jTextField4.setText(rs.getString(4));
-                jTextField6.setText(rs.getString(2));
-                jTextField7.setText(rs.getString(3));
-            }
-            else
-            {
-                jTextField2.setText("");
-                jTextField3.setText("");
-                jTextField4.setText("");
-                jTextField6.setText("");
-                jTextField7.setText("");
-            }
-        }
-        catch(Exception e)
-        {
-            JOptionPane.showMessageDialog(null,e);
-        }
-    }//GEN-LAST:event_jTextField1ActionPerformed
-
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
-        // TODO add your handling code here:
-        String payor=jTextField2.getText();
-        try
-        {
-            Connection con=ConnectionProvider.getcon();
-            Statement st=con.createStatement();
-            ResultSet rs=st.executeQuery("select *from payor where payor like '"+payor+"%'");
-            if(rs.next())
-            {
-                jTextField1.setText(rs.getString(1));
-                jTextField2.setText(rs.getString(2));
-                jTextField3.setText(rs.getString(3));
-                jTextField4.setText(rs.getString(4));
-            }
-            else
-            {
-                jTextField1.setText("");
-                jTextField3.setText("");
-                jTextField4.setText("");
-            }
-        }
-        catch(Exception e)
-        {
-            JOptionPane.showMessageDialog(null,e);
-        }
-    }//GEN-LAST:event_jTextField2ActionPerformed
-
-    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
-        // TODO add your handling code here:
-        String tId=jTextField5.getText();
-        try
-        {
-            Connection con=ConnectionProvider.getcon();
-            Statement st=con.createStatement();
-            ResultSet rs=st.executeQuery("select *from trans where tId like '"+tId+"'");
-            if(rs.next())
-            {
-                jTextField8.setText(rs.getString(4));
-                jTextField9.setText(rs.getString(5));
-                jTextField10.setText(rs.getString(6));
-                jTextField11.setText(rs.getString(6));
-            }
-            else
-            {
-                jTextField8.setText("");
-                jTextField9.setText("");
-                jTextField10.setText("");
-                jTextField11.setText("");
-            }
-        }
-        catch(Exception e)
-        {
-            JOptionPane.showMessageDialog(null,e);
-        }
-        
-    }//GEN-LAST:event_jTextField5ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
@@ -461,6 +360,148 @@ public class officialReceipt extends javax.swing.JFrame {
         doc.close();
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField7ActionPerformed
+
+    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+        // TODO add your handling code here:
+        String tId=jTextField5.getText();
+        try
+        {
+            Connection con=ConnectionProvider.getcon();
+            Statement st=con.createStatement();
+            ResultSet rs=st.executeQuery("select *from trans where tId like '"+tId+"'");
+            if(rs.next())
+            {
+                jTextField8.setText(rs.getString(4));
+                jTextField9.setText(rs.getString(5));
+                jTextField10.setText(rs.getString(6));
+                jTextField11.setText(rs.getString(6));
+            }
+            else
+            {
+                jTextField8.setText("");
+                jTextField9.setText("");
+                jTextField10.setText("");
+                jTextField11.setText("");
+            }
+        }
+        catch(Exception e)
+        {
+            JOptionPane.showMessageDialog(null,e);
+        }
+
+    }//GEN-LAST:event_jTextField5ActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+        String payor=jTextField2.getText();
+        try
+        {
+            Connection con=ConnectionProvider.getcon();
+            Statement st=con.createStatement();
+            ResultSet rs=st.executeQuery("select *from payor where payor like '"+payor+"%'");
+            if(rs.next())
+            {
+                jTextField1.setText(rs.getString(1));
+                jTextField2.setText(rs.getString(2));
+                jTextField3.setText(rs.getString(3));
+                jTextField4.setText(rs.getString(4));
+            }
+            else
+            {
+                jTextField1.setText("");
+                jTextField3.setText("");
+                jTextField4.setText("");
+            }
+        }
+        catch(Exception e)
+        {
+            JOptionPane.showMessageDialog(null,e);
+        }
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+        String serialNo=jTextField1.getText();
+        try
+        {
+            Connection con=ConnectionProvider.getcon();
+            Statement st=con.createStatement();
+            ResultSet rs=st.executeQuery("select *from payor where serialNo like '"+serialNo+"%'");
+            if(rs.next())
+            {
+                jTextField1.setText(rs.getString(1));
+                jTextField2.setText(rs.getString(2));
+                jTextField3.setText(rs.getString(3));
+                jTextField4.setText(rs.getString(8));
+                jTextField5.setText(rs.getString(5));
+                jTextField6.setText(rs.getString(10));
+                jTextField7.setText(rs.getString(3));
+                jTextField8.setText(rs.getString(7));
+                jTextField9.setText(rs.getString(6));
+                jTextField10.setText(rs.getString(4));
+            }
+            else
+            {
+                jTextField2.setText("");
+                jTextField3.setText("");
+                jTextField4.setText("");
+                jTextField6.setText("");
+                jTextField7.setText("");
+                jTextField8.setText("");
+                jTextField9.setText("");
+                jTextField10.setText("");
+            }
+        }
+        catch(Exception e)
+        {
+            JOptionPane.showMessageDialog(null,e);
+        }
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+        String serialNo=jTextField1.getText();
+        try
+        {
+            Connection con=ConnectionProvider.getcon();
+            Statement st=con.createStatement();
+            ResultSet rs=st.executeQuery("select *from payor where serialNo like '"+serialNo+"%'");
+            if(rs.next())
+            {
+                jTextField1.setText(rs.getString(1));
+                jTextField2.setText(rs.getString(2));
+                jTextField3.setText(rs.getString(3));
+                jTextField4.setText(rs.getString(8));
+                jTextField5.setText(rs.getString(5));
+                jTextField6.setText(rs.getString(10));
+                jTextField7.setText(rs.getString(3));
+                jTextField8.setText(rs.getString(7));
+                jTextField9.setText(rs.getString(6));
+                jTextField10.setText(rs.getString(4));
+                jTextField11.setText(rs.getString(4));
+            }
+            else
+            {
+                jTextField2.setText("");
+                jTextField3.setText("");
+                jTextField4.setText("");
+                jTextField6.setText("");
+                jTextField7.setText("");
+                jTextField8.setText("");
+                jTextField9.setText("");
+                jTextField10.setText("");
+                jTextField11.setText("");
+            }
+        }
+        catch(Exception e)
+        {
+            JOptionPane.showMessageDialog(null,e);
+        }
+    }//GEN-LAST:event_jComboBox1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -501,12 +542,13 @@ public class officialReceipt extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
